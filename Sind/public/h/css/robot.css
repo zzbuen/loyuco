@@ -1,0 +1,54 @@
+body{
+    padding: 0 1rem;
+}
+/*表头和内容居中*/
+table{
+    text-align: center;
+}
+table thead th{
+    text-align: center!important;
+}
+table tbody td div{
+    height: 30px!important;
+}
+.working{
+    color: cornflowerblue;
+}
+
+.no_working{
+    color: red;
+}
+
+.robot_img{
+    transition: all 0.6s;
+}
+
+.robot_img:hover{
+    transform: scale(1.4);
+}
+.icon_hover:hover{
+    color: #1E9FFF;
+}
+
+.icon_xia{
+    color: darkgray;
+}
+.icon_shang{
+    color: gray;
+}
+.icon_shang:hover{
+    color: red;
+}
+.icon_xia:hover{
+    color: red;
+}
+
+
+@font-face {
+    font-family: 'layui-icon';  /* project id 678404 */
+    src: url('//at.alicdn.com/t/font_678404_vsdtyrzgd0w6zuxr.eot');
+    src: url('//at.alicdn.com/t/font_678404_vsdtyrzgd0w6zuxr.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_678404_vsdtyrzgd0w6zuxr.woff') format('woff'),
+    url('//at.alicdn.com/t/font_678404_vsdtyrzgd0w6zuxr.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_678404_vsdtyrzgd0w6zuxr.svg#iconfont') format('svg');
+}
